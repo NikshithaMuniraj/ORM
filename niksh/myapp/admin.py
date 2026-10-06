@@ -1,0 +1,3 @@
+from django.contrib import admin
+from .models import service_vehicles_details,service_vehicles_detailsAdmin
+admin.site.register(service_vehicles_details,service_vehicles_detailsAdmin)
